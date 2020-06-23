@@ -1,7 +1,7 @@
 ---
 layout: article
 titles: 
-  # @start locale config
+  ## @start locale config
   en      : &EN       "a"
   en-GB   : *EN
   en-US   : *EN
@@ -12,17 +12,18 @@ titles:
   zh-CN   : *ZH_HANS
   zh-SG   : *ZH_HANS
   zh-Hant : &ZH_HANT  
-  zh-TW   : *ZH_HANT bc
+  zh-TW   : *ZH_HANT "a"
   zh-HK   : *ZH_HANT
-  ko      : &KO     Introduction
-  ko-KR   : *KO Introduction
+  ko      : &KO       
+  ko-KR   : *KO 
   fr      : &FR        
   fr-BE   : *FR
   fr-CA   : *FR
   fr-CH   : *FR
   fr-FR   : *FR
   fr-LU   : *FR
-  # @end locale config
+  ## @end locale config
+key: page-about
 ---
 
 ### Study hard to benefit the others
