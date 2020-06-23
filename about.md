@@ -16,7 +16,7 @@ titles:
   zh-HK   : *ZH_HANT
   ko      : &KO       
   ko-KR   : *KO
-  fr      : &FR       À 
+  fr      : &FR        
   fr-BE   : *FR
   fr-CA   : *FR
   fr-CH   : *FR
@@ -26,8 +26,7 @@ titles:
 key: page-about
 ---
 
-## Introduction 
-Study hard to benefit the others.
+### Study hard to benefit the others
 
 
 ## Education
