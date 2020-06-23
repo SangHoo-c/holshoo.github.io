@@ -14,8 +14,8 @@ titles:
   zh-Hant : &ZH_HANT  
   zh-TW   : *ZH_HANT bc
   zh-HK   : *ZH_HANT
-  ko      : &KO       
-  ko-KR   : *KO 
+  ko      : &KO     Introduction
+  ko-KR   : *KO Introduction
   fr      : &FR        
   fr-BE   : *FR
   fr-CA   : *FR
