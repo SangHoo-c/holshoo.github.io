@@ -45,19 +45,21 @@ Resilient, Distributed, Dataset의 약자이며, R- 데이터 손실 문제 발�
 
 아래 코드는 data.txt에서 파일을 읽고 RDD형태로 Transformation 하는 코드이다. 
 
-'''python
+```python
 lines = sc.textFile(“data.txt”)
 pairs = lines.map(lamda s : (s, 1))
 counts = pairs.reduceByKey( lambda a, b: a +b)
-'''
+```
 
 아래 코드는 RDD값을 기반으로 Action을 수행하는 코드이다. 
-'''python
+
+
+```python
 counts.collect()
 #RDD의 모든 데이터 리턴
 counts.countByValue()
 #각 값의 개수만큼 리턴 
-'''
+```
 
 이와 같은 방법으로 Spark RDD를 통해 분산 프로그래밍이 가능하다. 
 
