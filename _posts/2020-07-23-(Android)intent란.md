@@ -1,5 +1,5 @@
 ---
-title: [Android] Intent 란?
+title: (Android) Intent 란?
 tags: Android 
 ---
  

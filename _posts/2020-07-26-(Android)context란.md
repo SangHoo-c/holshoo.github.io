@@ -1,5 +1,5 @@
 ---
-title: [Android] Context 란?
+title: (Android) Context 란?
 tags: Android 
 ---
  

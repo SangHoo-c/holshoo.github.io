@@ -1,5 +1,5 @@
 ---
-title: [Android] 생명주기(life cycle) 이란?
+title: (Android) 생명주기(life cycle) 이란?
 tags: Android 
 ---
  
